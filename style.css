@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(35, 35, 35, 0.997);
+}
+
+.parent1 {
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    width: 400px;
+margin-top:60px ;
+    word-wrap: break-word;
+
+    margin-left: 60px;
+    font-size: 23px;
+
+}
+
+.child1 {
+    flex: 1;
+    border: 1px solid rgb(77, 77, 77);
+    padding: 20px;
+    background-color: rgb(97, 97, 97);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 250px;
+    line-height: 1.8;
+    color: white;
+
+
+}
+
+.child2 {
+    flex: 1;
+    border: 1px solid rgb(149, 149, 149);
+    padding: 20px;
+    background-color: rgb(21, 21, 21);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 500px;
+    line-height: 1.8;
+    color: white;
+
+}
+
+
+
+.wrapper-center {
+    display: flex;
+    justify-content: center;
+    margin-top: -520px;
+     flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    margin-left: 530px;
+    font-size: 23px;
+}
+
+.child3 {
+    flex: 1;
+    border: 1px solid rgb(77, 77, 77);
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 170px;
+    line-height: 1.8;
+    color: white;
+    gap:15px ;
+
+
+}
+
+.child4 {
+    flex: 1;
+    border: 1px solid rgb(149, 149, 149);
+    padding: 20px;
+    background-color: rgb(97,97,97);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height:350px;
+    line-height: 1.8;
+    margin-top:15px ;
+    color: white;
+
+}
+.wrapper-right {
+    display: flex;
+    justify-content:right;
+    margin-top: -540px;
+     flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    justify-content:right;
+    align-items:right;
+    word-wrap: break-word;
+    margin-left:1010px;
+    font-size: 23px;
+}
+.child5 {
+    flex: 1;
+    border: 1px solid rgb(77, 77, 77);
+    padding: 20px;
+    background-color: rgb(97, 97, 97);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 330px;
+    line-height: 1.8;
+    color: white;
+    gap:15px ;
+
+
+}
+.child6 {
+    flex: 1;
+    border: 1px solid rgb(149, 149, 149);
+    padding: 20px;
+    background-color: rgb(21, 21, 21);
+    min-height: 50px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height:200px;
+    line-height: 1.8;
+    margin-top:15px ;
+    color: white;
+
+}
